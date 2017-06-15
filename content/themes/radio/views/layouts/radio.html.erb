@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><%= @page_title %> - <%= site.title %></title>
+<title>Radio.co Status</title>
+<meta name="description" content="Radio.co is the Easiest Way to Create and Manage Your Internet Radio Station">
+<meta name="twitter:description" content="The Easiest Way to Start Your Internet Radio Station">
+<meta property="og:description" content="Start broadcasting your internet radio station today!">
+<meta property="fb:pages" content="562298840499471">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 <%= stylesheet_link_tag 'radio' %>
 <%= javascript_include_tag 'radio' %>
 <%= csrf_meta_tags %>
 <meta name='Generator' content='Staytus/<%= Staytus::Config.version %>' />
-<link rel="shortcut icon" href="<%= asset_path('favicon.png') %>"/>
+<!--<link rel="shortcut icon" href="<%= asset_path('favicon.png') %>"/>-->
+<link rel="icon" sizes="16x16 32x32 64x64" href="//radio.co/assets/img/favicon/favicon.ico">
+<meta property="og:image" content="https://radio.co/assets/img/facebook-seo.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:title" content="Radio.co | The Easiest Way to Start Your Internet Radio Station.">
+<meta property="og:url" content="https://radio.co">
+<meta property="og:site_name" content="Radio.co">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@radiodotco">
+<meta name="twitter:creator" content="@radiodotco">
+<meta name="twitter:url" content="https://radio.co">
+<meta name="twitter:title" content="Radio.co">
 <meta content='width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1' name='viewport' />
+<script type="text/javascript">window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+heap.load("1497818520");
+</script>
 </head>
 <body>
 
@@ -30,6 +50,15 @@
       </p>
     </div>
   </footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-55935378-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
