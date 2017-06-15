@@ -1,0 +1,62 @@
+$sansSerifFont:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$investigatingColor: #d13943;
+$identifiedColor: #d13980;
+$monitoringColor: #399dd1;
+$resolvedColor: #6CBE07;
+@font-face
+{
+  font-family: 'Neuzeit Gro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('radio/neuzeit-gro/2BF484_0_0.woff') format("woff");
+}
+
+$bg-color: #F8F8F8;
+$font-gray: #42413e;
+$brand-red: #ee4043;
+$brand-dark-red: #ad242e;
+$brand-green: #41a46a;
+$brand-yellow: #faa928;
+$brand-orange: #f3790f;
+$brand-light-gray: #757575;
+$brand-dedicated: #c5a56d;
+
+$footer-text-color: #54585e;
+$footer-hover-color: #e4e4e4;
+$footer-bg-color: #232122;
+
+$white-90: rgba(255, 255, 255, 0.9);
+$white-70: rgba(255, 255, 255, 0.7);
+$white-30: rgba(255, 255, 255, .3);
+$white: #fff;
+$black: #000;
+//Fonts
+$bold-text-font: "Open Sans Bold", Helvetica, Arial, sans-serif;
+$light-text-font: "Open Sans Light", Helvetica, Arial, sans-serif;
+$regular-text-font: "Open Sans", Helvetica, Arial, sans-serif;
+$semibold-text-font:"Open Sans Semibold", Helvetica, Arial, sans-serif;
+
+$heading-font: "Neuzeit Gro", Helvetica, Arial, sans-serif;
+
+$icon-font-path: '../fonts/';
+$font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
+
+//Transitions
+$transition-5: .5s ease-in-out;
+$transition-3: .3s ease-in-out;
+
+//Borders
+$red-border: 1px solid #EF4043;
+$border-color: #ebebeb;
+$dashed-line: #d2d2d2;
+
+// Input borders
+$input-border: 1px solid #cecece;
+$input-text: #ababab;
+$input-hover-color: #727272;
+
+//Padding
+$no-padding: padding 0;
+
+// Hover color
+$hover-color: #f0575a;
